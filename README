@@ -1,5 +1,16 @@
 node-hkgproxy
 
-This is a simple proxy for doing a batch requests to forum[1-12].hkgolden.com
-for faster page loading. hkgolden.com forum can be really slow and this project
+This is a simple http proxy for submitting a batch requests to
+forum[1-12].hkgolden.com for faster page loading.
+
+hkgolden.com forum can be really slow (for overseas) and this project
 is mainly for learning node.
+
+This script is only working with node 0.5.4, tested with the windows node.exe
+executable.
+
+My Chrome proxy extension: Proxy Switchy!
+
+Usage:
+> node hkgproxy.js
+> node hkgproxy.js <port>
