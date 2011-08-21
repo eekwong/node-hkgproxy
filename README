@@ -1,0 +1,5 @@
+node-hkgproxy
+
+This is a simple proxy for doing a batch requests to forum[1-12].hkgolden.com
+for faster page loading. hkgolden.com forum can be really slow and this project
+is mainly for learning node.
